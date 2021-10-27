@@ -22,7 +22,9 @@ var createWindow = function () {
         : "file://" + path.join(__dirname, '../build/index.html'));
     mainWindow.setResizable(true);
     mainWindow.focus();
-    mainWindow.on('closed', function () { return (mainWindow = undefined); });
+    mainWindow.on('closed', function () {
+        mainWindow = undefined;
+    });
     if (isDev) {
         mainWindow.webContents.openDevTools({ mode: 'detach' });
     }
