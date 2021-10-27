@@ -16,6 +16,8 @@ const createWindow = () => {
       nodeIntegration: true,
       devTools: isDev,
     },
+    frame: false,
+    transparent: true,
   });
 
   mainWindow.loadURL(
