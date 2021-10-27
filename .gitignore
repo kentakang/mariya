@@ -166,4 +166,7 @@ dist
 # and uncomment the following lines
 # .pnp.*
 
+# linaria
+.linaria_cache
+
 # End of https://www.toptal.com/developers/gitignore/api/yarn,node
