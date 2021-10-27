@@ -169,4 +169,7 @@ dist
 # linaria
 .linaria_cache
 
+# app.js
+public/app.js
+
 # End of https://www.toptal.com/developers/gitignore/api/yarn,node
